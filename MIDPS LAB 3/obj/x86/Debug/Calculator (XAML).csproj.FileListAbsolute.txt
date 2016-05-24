@@ -1,0 +1,12 @@
+C:\Users\ailly\Desktop\Calculator\bin\Debug\Calculator.exe
+C:\Users\ailly\Desktop\Calculator\bin\Debug\Calculator.pdb
+C:\Users\ailly\Desktop\Calculator\obj\x86\Debug\Calculator (XAML).csprojResolveAssemblyReference.cache
+C:\Users\ailly\Desktop\Calculator\obj\x86\Debug\MainWindow.baml
+C:\Users\ailly\Desktop\Calculator\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ailly\Desktop\Calculator\obj\x86\Debug\App.g.cs
+C:\Users\ailly\Desktop\Calculator\obj\x86\Debug\Calculator_MarkupCompile.cache
+C:\Users\ailly\Desktop\Calculator\obj\x86\Debug\Calculator.g.resources
+C:\Users\ailly\Desktop\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
+C:\Users\ailly\Desktop\Calculator\obj\x86\Debug\Calculator (XAML).csproj.GenerateResource.Cache
+C:\Users\ailly\Desktop\Calculator\obj\x86\Debug\Calculator.exe
+C:\Users\ailly\Desktop\Calculator\obj\x86\Debug\Calculator.pdb
