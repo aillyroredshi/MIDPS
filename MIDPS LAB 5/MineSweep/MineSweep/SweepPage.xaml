@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineSweep.SweepPage">
+        
+     <StackLayout>
+ 
+      <Image Source="bomb.png"   VerticalOptions="Start"  />
+        <!--<Label Text="Mine Sweep"  FontSize="35" FontAttributes="Bold" TextColor="Silver" Opacity="0.7"    VerticalOptions="Center"  HorizontalOptions="Center" ></Label>-->
+ <Button Text="Start Game"  BorderColor="Silver"  Clicked="ok" BackgroundColor="Teal"  VerticalOptions="Center"  HorizontalOptions="Center" ></Button>
+ <Button Text="Background"  BorderColor="Silver"  Clicked="buttons"  BackgroundColor="Teal"  VerticalOptions="Center"  HorizontalOptions="Center" ></Button>
+  <!--<Button Text="Config"  BorderColor="Silver"  Clicked="knopka" BackgroundColor="Teal" VerticalOptions="Center"  HorizontalOptions="Center" ></Button>-->
+        
+    
+ 
+
+ </StackLayout>
+</ContentPage>
