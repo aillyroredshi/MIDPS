@@ -1,0 +1,106 @@
+\section{Realizarea lucrarii de laborator}
+
+\subsection{Tasks and Points}
+
+\begin{itemize}
+\item Basic Level (nota 5 || 6) : 
+\begin{itemize}
+
+    \item conecteaza-te la server folosind SSH
+    \item compileaza cel putin 2 sample programs din setul HelloWolrdPrograms folosind CLI
+    \item executa primul commit folosind VCS
+
+\end{itemize}
+\item Normal Level (nota 7 || 8):
+\begin{itemize}
+
+   \item initializeaza un nou repositoriu
+   \item configureaza-ti VCS
+   \item crearea branch-urilor (creeaza cel putin 2 branches)
+   \item commit pe ambele branch-uri (cel putin 1 commit per branch)
+
+\end{itemize}
+\item Advanced Level (nota 9 || 10): 
+\begin{itemize}
+
+   \item seteaza un branch to track a remote origin pe care vei putea sa faci push (ex. Github, Bitbucket or custom server)
+   \item reseteaza un branch la commit-ul anterior
+   \item merge 2 branches
+   \item rezolvarea conflictelor a 2 branches
+
+\end{itemize}
+\end{itemize}
+
+\subsection{Analiza lucrarii de laborator}
+Linkul la repozitoriul GITHUB:
+\begin{center}
+\url{https://github.com/aillyroredshi/MIDPS}
+\end{center}
+
+Pentru a realiza aceasta lucrare de laborator $m-am$ inregistrat pe github.com si am instalat $git-bash$, am generat o cheie SSH si am adaugat aceasta cheie publica pe github pentru a identifica acest calculator.\\
+\begin{center}
+\includegraphics[scale=0.5]{images/1}\\
+\end{center}
+
+Pentru a compila programe scrise in $C++,Java$ avem nevoie de a seta directiile spre $g++,javac$ in fisierul bash\_profile din directoriul unde este instalat $Git-Bash$.Pentru a compila programul scris in Java utilizam javac pentru compilare si java HelloGITHUB pentru a rula programul nostru,in cazul programuli $C++$ utilizam comanda $g++ $ hello.cpp -o hello, si ./hello.\\
+\begin{center}
+\includegraphics[scale=0.75]{images/2}\\
+\end{center}
+\begin{center}
+\includegraphics[scale=0.75]{images/3}\\
+\end{center}
+
+Pentru fiecare schimbare pe care o facem pe repozitoriu putem lasa un mesaj folosind comanda git commit -m "mesaj" astfel organizam mai bine repozitoriul si putem vedea  ce schimbari au avut loc. Pentru a facea primul add, commit si push am utilizat urmatoarele comenzi necesare.\\
+\begin{center}
+\includegraphics[scale=0.75]{images/4}\\
+\end{center}
+
+Am initializat un nou repozitoriu cu numele NewRepository cu git init,si am configurat acest repozitoriu cu git config \--global user.name si user.email.\\
+\begin{center}
+\includegraphics[scale=0.75]{images/5}\\
+\includegraphics[scale=0.75]{images/6}\\
+\end{center}
+
+Am creat doua branch-uri cu numele 1 si 2 folosind comanda git branch "numele".\\
+\begin{center}
+\includegraphics[scale=0.75]{images/7}\\
+\end{center}
+
+Am adaugat un fisier pe branch-ul 1.\\
+\begin{center}
+\includegraphics[scale=0.75]{images/9}\\
+\end{center}
+
+Am adaugat si un fisier pe branch-ul 2.\\
+\begin{center}
+\includegraphics[scale=0.75]{images/10}\\
+\end{center}
+
+Cind accesam github.com ca master putem accepta schimbarile de pe celelalte branch-uri astfel fisierele vor fi adaugate pe master.La fel putem lasa si un comentariu pentru acel commit.\\
+\begin{center}
+\includegraphics[scale=0.75]{images/11}\\
+\end{center}
+
+Am setat branch-ul 1 track a remote.\\
+\begin{center}
+\includegraphics[scale=0.75]{images/12}\\
+\end{center}
+
+Am resetat branch-ul 1 la un commit anterior.\\
+\begin{center}
+\includegraphics[scale=0.75]{images/13}\\
+\end{center}
+
+Am facut merge la branch-ul 1 cu master.\\
+\begin{center}
+
+\end{center}
+
+In cazul cind pe un branch avem un fisier cu un continut oarecare si pe al branch acelasi fisier dar cu continut diferit atunci cind incercam sa facem merge a acestor doua branch-uri atunci primim un mesaj de conflict.Daca deschidem fisierul acolo vor fi afisate problemele care trebuie inlaturate.\\
+\begin{center}
+ 
+ \includegraphics[scale=0.75]{images/14}\\
+\end{center}
+Pentru a rezolva aceasta problema putem modifica continutul fisierului si dupa care faceem din nou git add si commit astfel rezolvam acest conflict.\\
+
+\clearpage
